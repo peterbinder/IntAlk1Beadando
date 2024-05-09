@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3a37597-549f-4068-b2d3-d76e300a43ea" name="Changes" comment="add gitignora" />
+    <list default="true" id="b3a37597-549f-4068-b2d3-d76e300a43ea" name="Changes" comment="calculator app">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntAlk1Beadando/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntAlk1Beadando/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,8 +40,10 @@
     <setting file="file://$PROJECT_DIR$/IntAlk1Beadando/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IntAlk1Beadando/Pages/Index.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IntAlk1Beadando/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IntAlk1Beadando/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IntAlk1Beadando/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 1
 }]]></component>
@@ -124,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715241948002</updated>
-      <workItem from="1715241949134" duration="4841000" />
+      <workItem from="1715241949134" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="add gitignora">
       <option name="closed" value="true" />
@@ -134,16 +138,26 @@
       <option name="project" value="LOCAL" />
       <updated>1715250699989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="calculator app">
+      <option name="closed" value="true" />
+      <created>1715250792715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715250792715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add gitignora" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gitignora" />
+    <MESSAGE value="calculator app" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator app" />
   </component>
 </project>
