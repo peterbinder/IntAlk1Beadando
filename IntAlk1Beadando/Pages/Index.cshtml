@@ -1,0 +1,31 @@
+﻿@page
+@model IntAlk1Beadando.CalcModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Üdvözlet</h1>
+    <p>Ez egy beadandó projekt a GDE Internetes Alkalmazás Fejlesztes I. kurzushoz</p>
+    <form method="post">
+        <input asp-for="Number1" type="number" />
+        <span asp-validation-for="Number1" class="text-danger"></span>
+
+        <input asp-for="Number2" type="number" />
+        <span asp-validation-for="Number2" class="text-danger"></span>
+
+        <select asp-for="Operation">
+            <option value="add">Összeadás</option>
+            <option value="subtract">Kivonás</option>
+            <option value="multiply">Szorzás</option>
+            <option value="divide">Osztás</option>
+        </select>
+
+        <button type="submit">Számol</button>
+    </form>
+
+    @if (Model.Result != null)
+    {
+    <p>Eredmény: @Model.Result</p>
+    }
+</div>

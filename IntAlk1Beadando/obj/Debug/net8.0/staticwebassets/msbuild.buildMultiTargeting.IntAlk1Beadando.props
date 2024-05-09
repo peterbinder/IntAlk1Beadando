@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IntAlk1Beadando.props" />
+</Project>
