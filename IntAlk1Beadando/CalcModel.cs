@@ -15,9 +15,12 @@ public class CalcModel : PageModel
     public string Operation { get; set; }
 
     public int? Result { get; set; }
+    public string? ErrorMessage { get; set; }
 
     public void OnPost()
     {
+        ErrorMessage = null;
+
         if (Enum.TryParse(Operation, true, out MathOperation parsedOperation))
         {
             Result = Calculate(parsedOperation);
@@ -51,5 +54,10 @@ public class CalcModel : PageModel
 
     private int Multiply(int a, int b) => a * b;
 
-    private int? Divide(int a, int b) => b != 0 ? a / b : null;
+    private int? Divide(int a, int b)
+    {
+        if (b != 0) return a / b;
+        ErrorMessage = "Hiba: Nullával való osztás nem megengedett.";
+        return null;
+    }
 }

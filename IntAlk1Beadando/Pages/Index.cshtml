@@ -1,7 +1,7 @@
 ﻿@page
 @model IntAlk1Beadando.CalcModel
 @{
-    ViewData["Title"] = "Home page";
+ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
@@ -24,7 +24,11 @@
         <button type="submit">Számol</button>
     </form>
 
-    @if (Model.Result != null)
+    @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+    {
+    <p class="text-danger">@Model.ErrorMessage</p>
+    }
+    else if (Model.Result != null)
     {
     <p>Eredmény: @Model.Result</p>
     }
